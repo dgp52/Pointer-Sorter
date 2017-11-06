@@ -1,0 +1,233 @@
+Name: Viraj Patel - vjp60
+Deepkumar Patel - dgp52
+
+-bash-4.2$ ./pointersorter "Abc" "def"
+Invalid input
+
+-bash-4.2$ ./pointersorter ""
+Invalid input
+
+-bash-4.2$ ./pointersorter "    "
+No words found
+
+-bash-4.2$ ./pointersorter ",.,;"
+No words found
+
+-bash-4.2$ ./pointersorter """"
+Invalid input
+
+-bash-4.2$ ./pointersorter "''"
+No words found
+
+-bash-4.2$ ./pointersorter "'"
+No words found
+
+-bash-4.2$ ./pointersorter "thing stuff otherstuff blarp"
+blarp
+otherstuff
+stuff
+thing
+
+-bash-4.2$ ./pointersorter "thing1stuff3otherstuff,blarp"
+blarp
+otherstuff
+stuff
+thing
+
+-bash-4.2$ ./pointersorter "a"
+a
+
+-bash-4.2$ ./pointersorter "apple,./"
+apple
+
+-bash-4.2$ ./pointersorter "./apple  . ball"
+apple
+ball
+
+-bash-4.2$ ./pointersorter "         one      two    "
+one
+two
+
+-bash-4.2$ ./pointersorter "Apple apple Zebra zebra"
+Apple
+Zebra
+apple
+zebra
+
+-bash-4.2$ ./pointersorter "apple cat You"
+You
+apple
+cat
+
+-bash-4.2$ ./pointersorter "\!it works"
+it
+works
+
+-bash-4.2$ ./pointersorter "\$this,Works\!\$to1234"
+Works
+this
+to
+
+-bash-4.2$ ./pointersorter "12*&moon;{+"
+moon
+
+-bash-4.2$ ./pointersorter "\!@#\$%"
+No words found
+
+-bash-4.2$ ./pointersorter "\!@#\$%appleYOUyou9088\$%"
+appleYOUyou
+
+-bash-4.2$ ./pointersorter "\!@#\$%appleYOUyou9088\$new Word%"
+Word
+appleYOUyou
+new
+
+-bash-4.2$ ./pointersorter "2+3is-equal-to\%Five"
+Five
+equal
+is
+to
+
+-bash-4.2$ ./pointersorter "http://www.lipsum.com/feed/html"
+com
+feed
+html
+http
+lipsum
+
+-bash-4.2$ ./pointersorter "http://www.rapidtables.com/convert/number/hex-to-ascii.htm"
+ascii
+com
+convert
+hex
+htm
+http
+number
+rapidtables
+to
+www
+
+-bash-4.2$ ./pointersorter "0xE2 0x80 0xA9 (e280a9)"
+a
+e
+x
+xA
+xE
+
+-bash-4.2$ ./pointersorter "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus maximus odio, sed accumsan dui ultrices vulputate. In vitae pulvinar massa, at eleifend sem. Aenean eleifend laoreet libero et scelerisque. Nam id congue odio, eu consequat massa. Fusce eget mauris dolor. Sed sit amet ligula rhoncus, fermentum erat in, volutpat turpis. Nam laoreet in lacus et gravida. Aliquam viverra porta odio, at auctor turpis malesuada non. Aenean bibendum dui vel nisl rhoncus laoreet. Ut eu turpis magna. Sed dui velit, venenatis sed nisl sit amet, convallis luctus risus. Pellentesque finibus congue nisi, eu fermentum ex. Vestibulum vulputate commodo ultrices. Etiam ultrices, purus sit amet congue porttitor, augue libero lobortis nisi, eu maximus dolor sem non mi. "
+Aenean
+Aenean
+Aliquam
+Etiam
+Fusce
+In
+Lorem
+Maecenas
+Nam
+Nam
+Pellentesque
+Sed
+Sed
+Ut
+Vestibulum
+accumsan
+adipiscing
+amet
+amet
+amet
+amet
+at
+at
+auctor
+augue
+bibendum
+commodo
+congue
+congue
+congue
+consectetur
+consequat
+convallis
+dapibus
+dolor
+dolor
+dolor
+dui
+dui
+dui
+eget
+eleifend
+eleifend
+elit
+erat
+et
+et
+eu
+eu
+eu
+eu
+ex
+fermentum
+fermentum
+finibus
+gravida
+id
+in
+in
+ipsum
+lacus
+laoreet
+laoreet
+laoreet
+libero
+libero
+ligula
+lobortis
+luctus
+magna
+malesuada
+massa
+massa
+mauris
+maximus
+maximus
+mi
+nisi
+nisi
+nisl
+nisl
+non
+non
+odio
+odio
+odio
+porta
+porttitor
+pulvinar
+purus
+rhoncus
+rhoncus
+risus
+scelerisque
+sed
+sed
+sem
+sem
+sit
+sit
+sit
+sit
+turpis
+turpis
+turpis
+ultrices
+ultrices
+ultrices
+vel
+velit
+venenatis
+vitae
+viverra
+volutpat
+vulputate
+vulputate
